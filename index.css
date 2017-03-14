@@ -1,0 +1,44 @@
+#line {
+  position: absolute; /* Абсолютное позиционирование */
+  left: 0px; /* Положение элемента от левого края */
+  top: 0px; /* Положение от верхнего края */
+  width: 100%; /* Ширина блока */
+  padding: 1.5px; /* Поля вокруг текста */
+  background: rgb(180,5,120); /* Цвет фона */
+}
+
+div.header {
+  position: absolute; /* Абсолютное позиционирование */
+  left: 0px; /* Положение элемента от левого края */
+  top: 3px; /* Положение от верхнего края */
+  width: 100%; /* Ширина блока */
+  padding: 29px; /* Поля вокруг текста */
+  background:  #F5F5F5; /* Цвет фона */
+  border-bottom: 1px solid darkgray;
+}
+
+#logo {
+  position: absolute; /* Абсолютное позиционирование */
+  left: 450px; /* Положение элемента от левого края */
+  top: 0px; /* Положение от верхнего края */
+  width: 6.6%; /* Ширина блока */
+  padding: 29px; /* Поля вокруг текста */
+  background: #F5F5F5; /* Цвет фона */
+  height: 0px;
+  background-image: url(https://cdn.sstatic.net/Sites/stackoverflow/img/sprites.svg?v=d689de80c4e2);
+}
+
+div.menu {
+  position: absolute; /* Абсолютное позиционирование */
+  left: 650px; /* Положение элемента от левого края */
+  top: 0px; /* Положение от верхнего края */
+  width: 3.5%; /* Ширина блока */
+  padding: 18px; /* Поля вокруг текста */
+  background: #F5F5F5; /* Цвет фона */
+  font-size: 17px;
+  text-align: left;
+}
+
+#one    { left: 740px; }
+#two    { left: 800px; }
+#three  { left: 930px; }

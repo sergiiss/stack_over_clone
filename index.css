@@ -1,44 +1,102 @@
 #line {
-  position: absolute; /* Абсолютное позиционирование */
-  left: 0px; /* Положение элемента от левого края */
-  top: 0px; /* Положение от верхнего края */
-  width: 100%; /* Ширина блока */
-  padding: 1.5px; /* Поля вокруг текста */
-  background: rgb(180,5,120); /* Цвет фона */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 3px;
+  background: rgb(180,5,120);
 }
 
 div.header {
-  position: absolute; /* Абсолютное позиционирование */
-  left: 0px; /* Положение элемента от левого края */
-  top: 3px; /* Положение от верхнего края */
-  width: 100%; /* Ширина блока */
-  padding: 29px; /* Поля вокруг текста */
-  background:  #F5F5F5; /* Цвет фона */
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 3px;
+  height: 60px;
+  background:  #F5F5F5;
   border-bottom: 1px solid darkgray;
 }
 
 #logo {
-  position: absolute; /* Абсолютное позиционирование */
-  left: 450px; /* Положение элемента от левого края */
-  top: 0px; /* Положение от верхнего края */
-  width: 6.6%; /* Ширина блока */
-  padding: 29px; /* Поля вокруг текста */
-  background: #F5F5F5; /* Цвет фона */
-  height: 0px;
+  position: absolute;
+  left: 450px;
+  top: 0px;
+  width: 188.8px;
+  background: #F5F5F5;
+  height: 60px;
   background-image: url(https://cdn.sstatic.net/Sites/stackoverflow/img/sprites.svg?v=d689de80c4e2);
 }
 
 div.menu {
-  position: absolute; /* Абсолютное позиционирование */
-  left: 650px; /* Положение элемента от левого края */
-  top: 0px; /* Положение от верхнего края */
-  width: 3.5%; /* Ширина блока */
-  padding: 18px; /* Поля вокруг текста */
-  background: #F5F5F5; /* Цвет фона */
+  position: absolute;
+  top: 0px;
+  width: 3.5%;
+  padding: 18px;
+  background: #F5F5F5;
   font-size: 17px;
   text-align: left;
 }
 
-#one    { left: 740px; }
-#two    { left: 800px; }
-#three  { left: 930px; }
+#questions      { left: 640px; }
+#jobs           { left: 730px; }
+#documentation  { left: 780px; }
+#tags           { left: 910px; }
+#users          {left: 960px;}
+
+#zone_of_greeting {
+  font-size: 1.2em;
+  text-align: center;
+  height: 300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #f9fbff url(image/pattern_1.svg);
+  margin-top: 80px;
+  border-bottom: 3px solid #cae8f7;
+}
+
+#greeting {
+  margin-top: 40px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#slogan {
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+#registration {
+  margin-top: 40px;
+  border: groove;
+  border-color: #d0e8f4;
+  background-color: #4d9bc1;
+  width: 180px;
+  height: 28px;
+  padding: 6px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top_questions {
+  font-size: 0.8em;
+  font-weight: 500;
+
+}
+
+.questions {
+  height: 40px;
+  margin-top: 5px;
+  font-size: 1.4em;
+  padding-left: 170px;
+  border-bottom: 1.5px solid #eeeeee;
+
+}
+
+#allcontens {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}

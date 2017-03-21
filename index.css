@@ -20,11 +20,8 @@ div.header {
 #logo {
   position: absolute;
   left: 450px;
-  top: 0px;
-  width: 188.8px;
-  background: #F5F5F5;
+  top: -487px; 
   height: 60px;
-  background-image: url(https://cdn.sstatic.net/Sites/stackoverflow/img/sprites.svg?v=d689de80c4e2);
 }
 
 div.menu {
@@ -37,11 +34,11 @@ div.menu {
   text-align: left;
 }
 
-#questions      { left: 640px; }
-#jobs           { left: 730px; }
-#documentation  { left: 780px; }
-#tags           { left: 910px; }
-#users          {left: 960px;}
+#questions      { left: 610px; }
+#jobs           { left: 700px; }
+#documentation  { left: 750px; }
+#tags           { left: 875px; }
+#users          {left: 925px;}
 
 #zone_of_greeting {
   font-size: 1.2em;

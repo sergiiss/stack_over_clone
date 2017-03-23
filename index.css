@@ -1,26 +1,27 @@
 ﻿body {
   margin: 0px;
-}
-
-#title {
-  background-image: url(images/sprites.svg);
-  
+  color: #464e55;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #line {  
   height: 3px;
-  background-color: #ef5b67;
+  background-color: #f48024;
 }
 
 #header {
+  position: fixed;
+  min-width: auto;
+  top: 0px;
+  width: 100%;
   background-color: #f9f9f9;
   border-bottom: 1px solid #cccccc;
 }
 
 #menu {
+  width: 1057.5px;
   margin-left: auto;
-  margin-right: auto;
-  width: 1080px;
+  margin-right: auto;  
   background-color: #f9f9f9;
   height: 54px;  
 }
@@ -28,23 +29,24 @@
 #logo {
   display: inline-block;
   background-image: url(images/sprites.svg);
-  background-position: 0 -493px;
+  background-position: 10px -490px;
   text-indent: -9999px;
   width: 150px;
   height: 54px;
   background-repeat: no-repeat;
   line-height: 50px;
-  padding: 0px 5px;
+  padding: 0px 10px;
 }
 
 .menu {
   display: inline-block;
-  line-height: 50px;
+  line-height: 52px;
   text-align: center;
   height: 54px;
   padding: 0px 10px;
   background-color: #f9f9f9;
-  color: #555555;
+  font-size: 0.85em;
+  color: #464e55;
 }
 
 .menu:hover {
@@ -55,24 +57,20 @@
   background-color: #eeeeee;
 }
 
-#allcontens {
-  width: 1080px;
+#allcontent {
+  width: 1057.5px;    
   margin-left: auto;
   margin-right: auto;
 }
 
-#greeting {
-  font-size: 1.2em;
+#greeting {  
   text-align: center;
   height: 300px;
   padding-top: 5px;
   padding-bottom: 5px;
   background: #f9fbff url(images/pattern_1.svg);
   margin-top: 25px;
-  border-bottom: 3px solid #cae8f7;
-  width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
+  border-bottom: 3px solid #cae8f7;  
 }
 
 .welcome {
@@ -88,14 +86,49 @@
   font-weight: bold;
 }
 
+#sidebar {
+  width: 300px;
+  float: right;
+  border: 2px solid #07C;
+  border-left-width: 3px;
+  border-bottom-width: 3px;
+  margin: 10px 0px 10px 0px;
+  
+}
+
+#tt {
+  padding: 10px 10px;
+  margin-top: 30px;
+}
+
+#top {
+  width: 300px;
+  float:right;
+  background-color: #07C;
+  height: 42px;  
+  color: white;
+  text-align: center;
+  line-height: 7px;
+  font-size: 1.25em;
+}
+
+#list_questions {
+  width: 726px;
+  float: left;  
+  margin: 10px 0px 10px 0px;
+  padding: 0px 10px;
+  text-align: top;
+}
+
 #footer {  
-  background-color: #242729;  
+  background-color: #242729;
+  clear:left;  
 }
 
 #footer_content {  
   color: white;
   background-color: #242729;
-  width: 1080px;
+  width: 1057.5px;
   margin-left: auto;
   margin-right: auto;  
 }
@@ -113,7 +146,7 @@ a {
 }
 
 .first_line {  
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #99d4ff;
   padding-right: 10px;  
 }

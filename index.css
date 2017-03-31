@@ -1,5 +1,6 @@
 ﻿body {
   margin: 0px;
+  padding: 0px;
   color: #464e55;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -87,6 +88,27 @@
   font-weight: bold;
 }
 
+#registration {
+  border-bottom: 3px solid #07c;
+  border-style: ridge;
+  background-color: #0095ff;
+  height: 40px;
+  width: 180px;
+  line-height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;    
+}
+
+#registration:hover {
+  background-color: #07c;
+}
+
+p#registration a {
+  color: white;
+}
+
+
 #sidebar {
   width: 300px;
   float: right;
@@ -154,7 +176,6 @@ a {
 
 #second_string {
   font-size: 0.75em;
-
 }
 
 #tableContainer {
@@ -165,11 +186,16 @@ div.tableRow {
   display: table-row;
 }
 
-div.tableRow a {
-  display: table-cell;
-  vertical-align: top;
+div.tableRow p {
+  display: table-cell;  
   text-decoration: none;
+  width: 14.28%;
+  padding-bottom: 5px;
+}
+
+p a {
   color: #9fa6ad;
+  vertical-align: top;  
 }
 
 #security-content {
@@ -182,9 +208,10 @@ div.tableRow a {
   padding: 0px 0px 10px 0px;
 }
 
-p.footer-content-one {
+.footer-content-one a {
   color: white;
   font-weight: bolder;
+  padding-bottom: 20px;
 }
 
 ul {
@@ -203,4 +230,47 @@ ul li {
 ul li a:link, ul li a:visited {
   color: #464e55;
   border-bottom: none;
+}
+
+ul#questions li p {
+ border-bottom: 2px solid #e4e6e8;
+ font-size: 1.2em; 
+ text-align: left;
+ color: #07C;
+ height: 40px; 
+ margin: 0px;
+ padding-bottom: 20px;
+}
+
+.votes {
+  display: inline-block;  
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  background-color: red;
+  font-size: 0.85em;
+  color: #464e55
+}
+
+.answers {
+  display: inline-block;  
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  background-color: blue;
+  font-size: 0.85em;
+  color: #464e55
+}
+
+.views {
+  display: inline-block;  
+  text-align: center;
+  height: 40px;
+  width: 40px;
+  padding: 0px;
+  background-color: green;
+  font-size: 0.85em;
+  color: #464e55
 }

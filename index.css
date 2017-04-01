@@ -115,13 +115,31 @@ p#registration a {
   border: 2px solid #07C;
   border-left-width: 3px;
   border-bottom-width: 3px;
-  margin: 10px 0px 10px 0px;
-
+  margin: 10px 0px 0px 0px;
 }
 
 #tt {
-  padding: 10px 10px;
+  padding: 10px 10px 0px 10px;
   margin-top: 30px;
+}
+
+div.work {
+  border-bottom: 2px solid #e4e6e8;  
+  padding: 0px 0px 20px 0px;
+}
+
+div.work p {
+  color: #6a737c;
+  font-size: 0.8em;  
+}
+
+h6 {
+  color: #07C;  
+}
+
+span.location {
+  color: #999999;
+  padding-left: 10px;
 }
 
 #top {
@@ -157,7 +175,7 @@ p#registration a {
 }
 
 #first_string {
-  padding: 20px 0px;
+  padding: 40px 0px 50px 0px;
 }
 
 a {
@@ -189,8 +207,11 @@ div.tableRow {
 div.tableRow p {
   display: table-cell;  
   text-decoration: none;
-  width: 14.28%;
-  padding-bottom: 5px;
+  width: 14.28%;  
+}
+
+div.tableRow p.footer-content-one {
+  padding-bottom: 20px;
 }
 
 p a {
@@ -210,8 +231,7 @@ p a {
 
 .footer-content-one a {
   color: white;
-  font-weight: bolder;
-  padding-bottom: 20px;
+  font-weight: bolder;  
 }
 
 ul {
@@ -243,34 +263,38 @@ ul#questions li p {
 }
 
 .votes {
-  display: inline-block;  
-  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 2;
+  text-align: center;  
   height: 40px;
   width: 40px;
-  padding: 0px;
-  background-color: red;
-  font-size: 0.85em;
-  color: #464e55
+  padding: 0px;  
+  font-size: 1.2em;
+  color: #6a737c;  
 }
 
 .answers {
   display: inline-block;  
-  text-align: center;
+  vertical-align: top;
+  line-height: 2;
+  text-align: center;  
   height: 40px;
   width: 40px;
-  padding: 0px;
-  background-color: blue;
-  font-size: 0.85em;
-  color: #464e55
+  padding: 0px;  
+  font-size: 1.2em;
+  color: #6a737c;
 }
 
 .views {
   display: inline-block;  
-  text-align: center;
+  vertical-align: top;
+  line-height: 2;
+  text-align: center;  
   height: 40px;
   width: 40px;
-  padding: 0px;
-  background-color: green;
-  font-size: 0.85em;
-  color: #464e55
+  padding: 0px;  
+  font-size: 1.2em;
+  color: #6a737c;
 }
+

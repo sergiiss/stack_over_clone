@@ -127,6 +127,7 @@ p#registration a {
   margin-top: 30px;
 }
 
+<<<<<<< HEAD
 .work {
   border-bottom: 2px solid #e4e6e8;
   padding: 0px 0px 20px 0px;
@@ -146,6 +147,23 @@ p#registration a {
 }
 
 .location {
+=======
+div.work {
+  border-bottom: 2px solid #e4e6e8;  
+  padding: 0px 0px 20px 0px;
+}
+
+div.work p {
+  color: #6a737c;
+  font-size: 0.8em;  
+}
+
+h6 {
+  color: #07C;  
+}
+
+span.location {
+>>>>>>> 10955a2ec35051c7c859e9e782a30367372108df
   color: #999999;
   padding-left: 10px;
 }
@@ -302,7 +320,11 @@ div.tableRow {
 div.tableRow p {
   display: table-cell;
   text-decoration: none;
+<<<<<<< HEAD
   width: 14.28%;
+=======
+  width: 14.28%;  
+>>>>>>> 10955a2ec35051c7c859e9e782a30367372108df
 }
 
 div.tableRow p.footer-content-one {
@@ -326,6 +348,76 @@ p a {
 
 .footer-content-one a {
   color: white;
+<<<<<<< HEAD
   font-weight: bolder;
 }
 
+=======
+  font-weight: bolder;  
+}
+
+ul {
+  font-size: 0.8em;
+  margin: 10px 10px 0px 10px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+  text-align: right;
+}
+
+ul li {
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+
+ul li a:link, ul li a:visited {
+  color: #464e55;
+  border-bottom: none;
+}
+
+ul#questions li p {
+ border-bottom: 2px solid #e4e6e8;
+ font-size: 1.2em; 
+ text-align: left;
+ color: #07C;
+ height: 40px; 
+ margin: 0px;
+ padding-bottom: 20px;
+}
+
+.votes {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 2;
+  text-align: center;  
+  height: 40px;
+  width: 40px;
+  padding: 0px;  
+  font-size: 1.2em;
+  color: #6a737c;  
+}
+
+.answers {
+  display: inline-block;  
+  vertical-align: top;
+  line-height: 2;
+  text-align: center;  
+  height: 40px;
+  width: 40px;
+  padding: 0px;  
+  font-size: 1.2em;
+  color: #6a737c;
+}
+
+.views {
+  display: inline-block;  
+  vertical-align: top;
+  line-height: 2;
+  text-align: center;  
+  height: 40px;
+  width: 40px;
+  padding: 0px;  
+  font-size: 1.2em;
+  color: #6a737c;
+}
+
+>>>>>>> 10955a2ec35051c7c859e9e782a30367372108df

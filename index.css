@@ -116,10 +116,24 @@ p#registration a {
 #sidebar {
   width: 300px;
   float: right;
+  margin: 10px 0px 0px 0px;
+}
+
+#sidebar-work {
   border: 2px solid #07C;
   border-left-width: 3px;
   border-bottom-width: 3px;
-  margin: 10px 0px 0px 0px;
+}
+
+#top {
+  width: 296px;
+  float: right;
+  background-color: #07C;
+  height: 42px;
+  color: white;
+  text-align: center;
+  line-height: 7px;
+  font-size: 1.25em;
 }
 
 #tt {
@@ -150,18 +164,34 @@ p#registration a {
   padding-left: 10px;
 }
 
-#top {
-  width: 300px;
-  float:right;
-  background-color: #07C;
-  height: 42px;
-  color: white;
-  text-align: center;
-  line-height: 7px;
-  font-size: 1.25em;
+#hot-network-questions {
+  font-size: 0.8em;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  color: #07C;
 }
 
-#list_questions {
+#hot-network-questions h3 {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+#hot-network-questions ul li {
+  list-style-type: none;
+  text-align: left;
+  padding: 0px 0px 10px 0px;
+}
+
+#hot-network-questions a {
+  color: #07C;
+  font-size: 1em;
+}
+
+#hot-network-questions a:hover {
+  color: #49D;
+}
+
+#list-questions {
   width: 726px;
   float: left;
   margin: 10px 0px 10px 0px;
@@ -169,7 +199,7 @@ p#registration a {
   text-align: top;
 }
 
-ul {
+#list-questions ul {
   font-size: 0.8em;
   margin: 10px 10px 0px 10px;
   list-style-type: none;
@@ -177,12 +207,12 @@ ul {
   text-align: right;
 }
 
-ul li {
+#list-questions ul li {
   display: inline;
   padding: 5px 10px 5px 10px;
 }
 
-ul li a:link, ul li a:visited {
+#list-questions ul li a:link, ul li a:visited {
   color: #464e55;
   border-bottom: none;
 }
@@ -210,6 +240,8 @@ ul li a:link, ul li a:visited {
 
 .text-question h3 {
   font-size: 15px;
+  padding: 10px 0px 0px 0px;
+  margin: 0px;
 }
 
 .votes {
@@ -253,7 +285,44 @@ ul li a:link, ul li a:visited {
 .numeric {
  line-height: 9px;
  padding-top: 20px;
+}
 
+.topics-in-question {
+  display: inline-block;
+  vertical-align: top;
+  width: 260px;
+  height: 27px;
+}
+
+.post-tag {
+  background-color: #E1ECF4;
+  margin: 2px 2px 2px 0;
+  color: #39739d;
+  padding: .4em .5em;
+  font-size: 0.8em;
+}
+
+.started {
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 2px 2px 2px 0;
+  width: 204px;
+  height: 21.2px;
+  float: right;
+  vertical-align: top;
+}
+
+.nickname {
+  color: #07C;
+}
+
+.started-link {
+  color: #9199a1;
+}
+
+.reputation {
+  color: #848d95;
+  text-align: right;
 }
 
 #footer {
@@ -261,7 +330,7 @@ ul li a:link, ul li a:visited {
   clear: both;
 }
 
-#footer_content {
+#footer-content {
   color: white;
   background-color: #242729;
   width: 1057.5px;
@@ -269,7 +338,7 @@ ul li a:link, ul li a:visited {
   margin-right: auto;
 }
 
-#first_string {
+#first-string {
   padding: 40px 0px 50px 0px;
 }
 
@@ -277,35 +346,35 @@ a {
   text-decoration: none;
 }
 
-.first_string:hover {
+.first-string:hover {
   color: #77b2de;
 }
 
-.first_string {
+.first-string {
   font-size: 0.8em;
   color: #99d4ff;
   padding-right: 10px;
 }
 
-#second_string {
+#second-string {
   font-size: 0.75em;
 }
 
-#tableContainer {
+#table-сontainer {
   display: table;
 }
 
-div.tableRow {
+div.table-row {
   display: table-row;
 }
 
-div.tableRow p {
+div.table-row p {
   display: table-cell;
   text-decoration: none;
   width: 14.28%;
 }
 
-div.tableRow p.footer-content-one {
+div.table-row p.footer-content-one {
   padding-bottom: 20px;
 }
 
